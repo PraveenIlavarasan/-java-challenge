@@ -39,7 +39,7 @@ This project is a basic implementation of an Employee Management System. The sys
 	
 ### Usage
 
-The application runs on port 8080 by default. You can access the Swagger UI at http://localhost:8080/api/aswagger-ui.html to see the available APIs.
+The application runs on port 8080 by default. You can access the Swagger UI at http://localhost:8080/api/swagger-ui.html to see the available APIs.
 
 #### Authentication
 
