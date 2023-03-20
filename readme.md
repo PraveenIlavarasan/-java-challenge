@@ -25,7 +25,7 @@ This project is a basic implementation of an Employee Management System. The sys
 ### Installation
 1. Clone the repository using the following command:
 
-	`git clone https://github.com/<username>/springboot-employee-rest-api.git`
+	`git clone https://github.com/PraveenIlavarasan/java-challenge.git`
 	
 2. Navigate to the project directory
 	
