@@ -16,24 +16,23 @@ The project also includes JUnit test cases for testing the functionality of the 
 4. Run the project using Maven:
 	`mvn spring-boot:run`
 
-5. Access the REST API at http://localhost:8081/api/employees. 
+5. Access the REST API at http://localhost:8081/api
 	You will need to provide valid credentials to access the endpoint. 
 	The default credentials are:
 		Username: praveen
 		Password: praveen
-		
+	To change the username and password, modify the application.properties file.
+	
 ### Logging
-
 This project uses the org.apache.logging.log4j logging library for logging. 
-The log file is located at logs/application.log. The log level is set to INFO by default. 
-You can change the log level in the src/main/resources/log4j2.xml configuration file.
+The log file is located at logs/app.log. The log level is set to INFO by default. 
+You can change the log level in the src/main/resources/log4j2.properties configuration file.
 
 ### Testing
 This project includes JUnit test cases for testing the functionality of the REST API. You can run the test cases using Maven:
-	mvn test
+	`mvn test`
 	
 ## API Documentation
-
 The API documentation is available in the Swagger UI at http://localhost:8081/api/swagger-ui.html. 
 You can use this documentation to explore the API endpoints and test them out.
 
@@ -48,10 +47,18 @@ The following endpoints are available:
 | `/actuator/metrics`  | Get metrics about the app    | 
 
 
+### Other Enhancement possibilities
+Would create a docker container. 
+Create multiple environments property configuration. 
+Oauth with jwt authentication. 
+Would create two microservices, one for the employee-service and one for the authentication-service.
+Will create external configuration for the environment variables for production ready. 
+
+
 #### My experience in Java
 
 Please let us know more about your Java experience in a few sentences. For example:
 
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
+	3 years of experience in developing Enterprise Applications using Java, Object Oriented Methodologies, Web services like REST for software development.
+	Good knowledge in developing applications using core java concepts and experienced in working with Core Java SE 8 features like Lambda functions, Stream API.
+	Good Hands-on experience in various spring framework modules like Spring Boot, Spring Security, Spring Data, Spring IOC.
