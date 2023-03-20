@@ -23,14 +23,14 @@ The project also includes JUnit test cases for testing the functionality of the 
 5. Access the REST API at http://localhost:8081/api
 	You will need to provide valid credentials to access the endpoint. 
 	The default credentials are:
-		Username: praveen
-		Password: praveen
-	To change the username and password, modify the application.properties file.
+		**Username**: praveen
+		**Password**: praveen
+	To change the username and password, modify the **application.properties** file.
 	
 ### Logging
 This project uses the org.apache.logging.log4j logging library for logging. 
-The log file is located at logs/app.log. The log level is set to INFO by default. 
-You can change the log level in the src/main/resources/log4j2.properties configuration file.
+The log file is located at **logs/app.log**. The log level is set to INFO by default. 
+You can change the log level in the **src/main/resources/log4j2.properties** configuration file.
 
 ### Testing
 This project includes JUnit test cases for testing the functionality of the REST API. You can run the test cases using Maven:
