@@ -35,7 +35,7 @@ You can change the log level in the **src/main/resources/log4j2.properties** con
 ### Testing
 This project includes JUnit test cases for testing the functionality of the REST API. You can run the test cases using Maven:
 
-	`mvn test`
+`mvn test`
 	
 ## API Documentation
 The API documentation is available in the Swagger UI at http://localhost:8081/api/swagger-ui.html. 
