@@ -1,4 +1,4 @@
-package jp.co.axa.apidemo;
+package jp.co.axa.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
