@@ -1,4 +1,4 @@
-package jp.co.axa.apidemo.config;
+package jp.co.axa.api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

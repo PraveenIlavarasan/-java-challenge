@@ -1,4 +1,4 @@
-package jp.co.axa.apidemo.exception;
+package jp.co.axa.api.exception;
 
 import java.util.HashMap;
 
@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
+import jp.co.axa.api.constant.ApplicationConstant;
+
 @RestControllerAdvice
 public class ExceptionResolver {
 
@@ -18,18 +20,18 @@ public class ExceptionResolver {
         response.put("message", e.getMessage());
         return response;
     }
-
+    
     @ExceptionHandler(MissingPathVariableException.class)
     public HashMap<String, String> handleMissingPathVariableException(HttpServletRequest request, MissingPathVariableException e) {
         HashMap<String, String> response = new HashMap<>();
-        response.put("message", "Required path variable is missing in this request.");
+        response.put("message", ApplicationConstant.PATH_VARIABLE_INVALID);
         return response;
     }
 
     @ExceptionHandler(NoHandlerFoundException.class)
     public HashMap<String, String> handleNotFoundResourceException(HttpServletRequest request, NoHandlerFoundException e) {
         HashMap<String, String> response = new HashMap<>();
-        response.put("message", "Requested resource wasn't found on the server");
+        response.put("message", ApplicationConstant.PATH_INVALID);
         return response;
     }
 }
