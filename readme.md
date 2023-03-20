@@ -1,3 +1,4 @@
+
 ### SpringBoot Employee REST API
 This is a SpringBoot project that implements a RESTful API for managing employees. 
 The API includes a single endpoint secured with Spring Basic Authentication and uses the org.apache.logging.log4j logging library for logging. 
@@ -6,14 +7,17 @@ The project also includes JUnit test cases for testing the functionality of the 
 
 ### Installation
 1. Clone the repository using the following command:
+
 	`git clone https://github.com/<username>/springboot-employee-rest-api.git`
 	
 2. Navigate to the project directory
 	
 3. Build the project using Maven:
+
 	`mvn clean package`
 	
 4. Run the project using Maven:
+
 	`mvn spring-boot:run`
 
 5. Access the REST API at http://localhost:8081/api
@@ -30,6 +34,7 @@ You can change the log level in the src/main/resources/log4j2.properties configu
 
 ### Testing
 This project includes JUnit test cases for testing the functionality of the REST API. You can run the test cases using Maven:
+
 	`mvn test`
 	
 ## API Documentation
@@ -59,6 +64,9 @@ Will create external configuration for the environment variables for production 
 
 Please let us know more about your Java experience in a few sentences. For example:
 
-	1.I have 3 years of experience in developing Enterprise Applications using Java, Object Oriented Methodologies, Web services like REST for software development.
-	2.Good knowledge in developing applications using core java concepts and experienced in working with Core Java SE 8 features like Lambda functions, Stream API.
-	3.Good Hands-on experience in various spring framework modules like Spring Boot, Spring Security, Spring Data, Spring IOC.
+	1.I have 3 years of experience in developing Enterprise Applications using Java, 
+		Object Oriented Methodologies, Web services like REST for software development.
+	2.Good knowledge in developing applications using core java concepts 
+		and experienced in working with Core Java SE 8 features like Lambda functions, Stream API.
+	3.Good Hands-on experience in various spring framework modules like Spring Boot, 
+		Spring Security, Spring Data, Spring IOC.
